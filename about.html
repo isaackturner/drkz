@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About drkz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Same styles as main.html so the header/footer match -->
+  <style>
+    :root {
+      --bg: #ffffff;
+      --bg-light: #f7f7f7;
+      --border: #e3e3e3;
+      --text: #111111;
+      --muted: #777777;
+      --accent: #111111;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.97);
+      backdrop-filter: blur(6px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+    }
+
+    .logo {
+      font-size: 22px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    
+    .logo img {
+  height: 40px;   
+  width: auto;
+  display: block;
+}
+
+    .nav-links a {
+      margin-left: 24px;
+      font-size: 14px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .nav-links a:hover {
+      opacity: 0.6;
+    }
+
+    main {
+      padding: 60px 0 40px;
+    }
+
+    .page-title {
+      font-size: 22px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+    .page-title2 {
+      padding-top: 50px;
+      color: black;
+      font-size: 22px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+
+    .page-content {
+      max-width: 720px;
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      margin-top: 60px;
+    }
+
+    .footer-top {
+      padding: 40px 0 30px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 40px;
+    }
+
+    .footer-label {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+
+    .footer-text {
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .newsletter-form {
+      display: flex;
+      max-width: 360px;
+    }
+
+    .newsletter-form input[type="email"] {
+      flex: 1;
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      border-right: none;
+      font-size: 14px;
+    }
+
+    .newsletter-form button {
+      padding: 10px 18px;
+      border: 1px solid var(--border);
+      background: var(--accent);
+      color: #ffffff;
+      font-size: 12px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .footer-bottom {
+      padding: 18px 0 26px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .footer-bottom-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .footer-links a {
+      margin-left: 20px;
+      font-size: 13px;
+    }
+
+    @media (max-width: 720px) {
+      .header-inner {
+        height: auto;
+        padding: 12px 0;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+      }
+
+      .nav-links {
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+      }
+
+      .nav-links a {
+        margin-left: 0;
+        margin-right: 16px;
+        margin-bottom: 4px;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .newsletter-form {
+        max-width: 100%;
+      }
+
+      .footer-bottom-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .footer-links a {
+        margin-left: 0;
+        margin-right: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <img src="images/logo.png" alt="drkz logo">
+      </div>
+      <nav class="nav-links">
+        <a href="main.html">Home</a>
+        <a href="#top">About Us</a>
+        <a href="main.html#collection">Collection</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <div class="container">
+      <h1 class="page-title">About drkz</h1>
+      <div class="page-content">
+        <!-- Replace this text with your real About Us content -->
+        <p>
+          Founded in 2024, drkz is dedicated to selling minimalist, high-quality fakes that blend timeless design with looking fly as fuck, all for an affordable price.
+        </p>
+        <p>
+          
+        </p>
+        <h1 class="page-title2">Our services</h1>
+        <p>
+         SELLING & SOURCING
+        </p>
+        <p> 
+      We specialise in sourcing quality timepieces and offering them at competitive prices. Whether you're purchasing your first watch or adding to your collection, we provide guidance to ensure you choose the right piece. 
+        </p>
+         <p>
+         WRISTBAND SIZING & ADJUSTMENT
+        </p>
+         <p> 
+          We provide professional wristband sizing and adjustment to ensure a comfortable and secure fit. Pricing varies depending on the watch and service required, so please contact us for a personalised quote.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-label">Phone</div>
+          <div class="footer-text">32471129158</div>
+        </div>
+        <div>
+          <div class="footer-label">Email</div>
+          <div class="footer-text">isaackturner@gmail.com</div>
+        </div>
+        <div>
+          <div class="footer-label">Updates</div>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" />
+            <button type="submit">Sign Up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <div>2024 © drkz</div>
+        <div class="footer-links">
+          <a href="main.html">Home</a>
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
