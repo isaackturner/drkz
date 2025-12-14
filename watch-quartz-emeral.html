@@ -133,6 +133,20 @@
       font-size: 20px;
       font-weight: 600;
     }
+    .product-video {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 20px; /* space between video and image */
+      background: #000;
+    }
+
+    .product-image-main img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
 
     .enquiry-button {
       margin-top: 38px;
@@ -248,20 +262,33 @@
   <main>
     <div class="container product-layout">
 
-      <!-- LEFT: BIG IMAGE -->
-      <div class="product-image-main">
-        <img src="images/watch1.png" alt="Quartz Valari watch">
-      </div>
+     <!-- LEFT: VIDEO + IMAGE -->
+<div class="product-image-main">
+
+  <!-- VIDEO -->
+  <video class="product-video"
+         src="videos/videogreen1.mp4"
+         autoplay
+         muted
+         loop
+         playsinline>
+  </video>
+
+  <!-- IMAGE -->
+  <img src="images/backphoto1.PNG" alt="Quartz Esmeralda watch">
+
+</div>
+
 
       <!-- RIGHT: TEXT -->
       <div>
         <div class="product-brand">Poedagar</div>
-        <h1 class="product-title">Quartz Valari</h1>
+        <h1 class="product-title">Quartz Emeralda</h1>
         <div class="product-subtitle">41mm • 2025 • Stainless Steel</div>
 
         <div class="product-description">
           <p>
-            The Quartz Valari is a clean, modern everyday watch with a striking green dial
+            The Quartz Emeralda is a clean, modern everyday watch with a striking green dial
             and polished case. It offers a bold presence on the wrist while remaining
             comfortable for daily wear.
           </p>
@@ -277,7 +304,7 @@
           <span>Water resistant</span>
         </div>
 
-        <div class="product-price">£ 135</div>
+        <div class="product-price">£ 120</div>
 
         <div class="enquiry-actions">
         <a class="enquiry-button"
